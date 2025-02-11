@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gupdate xmlns="http://www.google.com/update2/response" protocol="2.0">
+  <app appid="RM-PULL-TEST">
+    <updatecheck codebase="https://thomastruong01.github.io/pull-test/pull-test.crx" version="1.0.1" />
+  </app>
+</gupdate>

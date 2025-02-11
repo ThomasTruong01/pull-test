@@ -1,9 +1,10 @@
 {
     "manifest_version": 3,
     "name": "Rapid Mfg Pull Test Helper",
-    "version": "1.0",
+    "version": "1.0.1",
     "description": "Pull Test Helper, Helps QC Inspector fill out the pull test log",
     "permissions": [],
+    "update_url": "https://thomastruong01.github.io/pull-test/update.xml",
     "background": {
         "service_worker": "background.js"
     },
