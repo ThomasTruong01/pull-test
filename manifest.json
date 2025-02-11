@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Rapid Mfg Pull Test Helper",
+    "version": "1.0",
+    "description": "Pull Test Helper, Helps QC Inspector fill out the pull test log",
+    "permissions": [],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "http://intrarapidmfg20/intranet/*",
+                "http://dev-intranet20/intranet/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}

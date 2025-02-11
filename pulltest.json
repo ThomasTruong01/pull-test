@@ -1,0 +1,70 @@
+[
+    {
+        "InputType": "checkbox",
+        "ID": "CrimpHeightNA",
+        "InputText": "Crimp Height Not Applicable",
+        "InputName":"",
+        "InputPlaceholder": ""
+    },
+    {
+        "InputType": "text",
+        "ID": "PullTesterID",
+        "InputText": "Pull Tester ID",
+        "InputName":"pullTesterID",
+        "InputPlaceholder": "TL#"
+    },
+    {
+        "InputType": "number",
+        "ID": "WireAWG",
+        "InputText": "Wire AWG",
+        "InputName":"wireAWG",
+        "InputPlaceholder": "AWG"
+    },
+    {
+        "InputType": "dropDown",
+        "ID": "PullTestStandard",
+        "InputText": "Pull Test Standard",
+        "InputName": "pullTestStandard",
+        "Selections":["Other","UL","Ferrule","Military","NASA-STD"],
+        "InputPlaceholder": "AWG"
+    },
+    {
+        "InputType": "number",
+        "ID": "MinPullForce",
+        "InputText": "Minimum Pull Force",
+        "InputName":"minPullForce",
+        "InputPlaceholder": ""
+    },
+    {
+        "InputType": "number",
+        "ID": "Result1",
+        "InputText": "Test Result 1",
+        "InputName":"result1",
+        "InputPlaceholder": ""
+    },
+    {
+        "InputType": "number",
+        "ID": "Result2",
+        "InputText": "Test Result 2",
+        "InputName":"result2",
+        "InputPlaceholder": ""
+    },
+    {
+        "InputType": "number",
+        "ID": "Result3",
+        "InputText": "Test Result 3",
+        "InputName":"result3",
+        "InputPlaceholder": ""
+    },
+    {
+        "InputType": "dropDown",
+        "ID": "ResultsAccepted",
+        "InputText": "Result",
+        "Selections":["Accepted","Rejected"],
+        "InputPlaceholder": "AWG"
+    }
+]
+
+
+
+
